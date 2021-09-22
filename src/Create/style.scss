@@ -1,0 +1,115 @@
+.create-wrap{
+    min-height: 100%;
+    background: #FF416C;  /* fallback for old browsers */
+    background: linear-gradient(to right, #FF4B2B, #FF416C) no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+
+    .inner-wrap{
+        width: 100%;
+        max-width: 1000px;
+        
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button{
+                background: none;
+                border: 1px solid white;
+                padding: 0.75em 2em;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: all 0.2s ease;
+
+                &:hover{
+                    background: white;
+                    color: #FF416C;
+                }
+            }
+        }
+
+        main{
+            margin-top: 1em;
+
+            form{
+
+                .title-area{
+                    color: black;
+                    background: white;
+                    padding: 0.5em 1em 1em 1em;
+                    border-radius: 4px;
+                    
+                    input{
+                        display: block;
+                        width: 100%;
+                        padding: 8px;
+                        margin-top: 0.5em;
+                        border-radius: 8px;
+                        border: 1px solid #cecece;
+
+                        &:focus{
+                            outline: none
+                        }
+                    }
+                }
+
+                .content-area{
+                    color: black;
+                    background: white;
+                    padding: 0.5em 1em 1em 1em;
+                    border-radius: 4px;
+                    margin: 1em 0;
+
+                    textarea{
+                        padding: 8px;
+                        border: 1px solid #cecece;
+                        border-radius: 8px;
+                        display: block;
+                        width: 100%;
+                        resize: none;
+                        overflow: hidden;
+                        min-height: 50px;
+                        max-height: 800px;
+
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+
+                button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0.75em 1.5em;
+                    background: white;
+                    color: #FF416C;
+                    border: 1px solid white;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+
+                    &:hover{
+                        border: 1px solid white;
+                        background: none;
+                        color: white;
+
+                        svg{
+                            stroke: white;
+                        }
+                    }
+                    
+                    svg{
+                        display: block;
+                        margin-left: 4px;
+                        transition: all 0.2s ease;
+                    }
+                }
+            }
+        }
+    }
+}
