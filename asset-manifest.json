@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TOP-Blog-Edit/static/css/main.e21663a3.chunk.css",
+    "main.js": "/TOP-Blog-Edit/static/js/main.03f24718.chunk.js",
+    "main.js.map": "/TOP-Blog-Edit/static/js/main.03f24718.chunk.js.map",
+    "runtime-main.js": "/TOP-Blog-Edit/static/js/runtime-main.f2c52381.js",
+    "runtime-main.js.map": "/TOP-Blog-Edit/static/js/runtime-main.f2c52381.js.map",
+    "static/js/2.2781625f.chunk.js": "/TOP-Blog-Edit/static/js/2.2781625f.chunk.js",
+    "static/js/2.2781625f.chunk.js.map": "/TOP-Blog-Edit/static/js/2.2781625f.chunk.js.map",
+    "static/js/3.5cc4558c.chunk.js": "/TOP-Blog-Edit/static/js/3.5cc4558c.chunk.js",
+    "static/js/3.5cc4558c.chunk.js.map": "/TOP-Blog-Edit/static/js/3.5cc4558c.chunk.js.map",
+    "index.html": "/TOP-Blog-Edit/index.html",
+    "static/css/main.e21663a3.chunk.css.map": "/TOP-Blog-Edit/static/css/main.e21663a3.chunk.css.map",
+    "static/js/2.2781625f.chunk.js.LICENSE.txt": "/TOP-Blog-Edit/static/js/2.2781625f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2c52381.js",
+    "static/js/2.2781625f.chunk.js",
+    "static/css/main.e21663a3.chunk.css",
+    "static/js/main.03f24718.chunk.js"
+  ]
+}
