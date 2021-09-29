@@ -7,7 +7,7 @@ import { ProvideAuth } from './use-auth';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/TOP-Blog-Edit">
       <ProvideAuth>
         <App />
       </ProvideAuth>

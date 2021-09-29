@@ -25,7 +25,7 @@ function useProvideAuth() {
       localStorage.setItem('jwt', responseData.data);
       return responseData.data;
     } catch (error) {
-      return error.response.data;
+      return error;
     }
   };
 
