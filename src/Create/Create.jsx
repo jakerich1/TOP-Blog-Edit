@@ -32,7 +32,7 @@ function Create() {
     event.preventDefault();
 
     try {
-      await axios.post('http://localhost:5000/posts',
+      await axios.post('https://top-blog-jr.herokuapp.com/posts',
         {
           title,
           content,

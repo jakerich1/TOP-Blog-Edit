@@ -22,7 +22,7 @@ function Dash() {
 
   const fetchPosts = async (pageRequest) => {
     try {
-      const postReturn = await axios.get(`http://localhost:5000/posts?page=${pageRequest}`,
+      const postReturn = await axios.get(`https://top-blog-jr.herokuapp.com/posts?page=${pageRequest}`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('jwt')}`,
@@ -37,7 +37,7 @@ function Dash() {
 
   const fetchInfo = async () => {
     try {
-      const infoReturn = await axios.get('http://localhost:5000/posts/info');
+      const infoReturn = await axios.get('https://top-blog-jr.herokuapp.com/posts/info');
 
       infoReturn.data.unpublished = infoReturn.data.all - infoReturn.data.published;
       infoReturn.data.pages = Math.ceil(infoReturn.data.all / 10);
@@ -59,7 +59,7 @@ function Dash() {
     const publish = !published;
 
     try {
-      await axios.put(`http://localhost:5000/posts/${id}`,
+      await axios.put(`https://top-blog-jr.herokuapp.com/posts/${id}`,
         {
           title,
           content,

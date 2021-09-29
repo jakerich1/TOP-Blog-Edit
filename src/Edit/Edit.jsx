@@ -23,7 +23,7 @@ function Create() {
       if (!id) return;
 
       try {
-        const postData = await axios.get(`http://localhost:5000/posts/${id}`);
+        const postData = await axios.get(`https://top-blog-jr.herokuapp.com/posts/${id}`);
         setTitle(postData.data.title);
         setContent(postData.data.content);
       } catch (error) {
@@ -50,7 +50,7 @@ function Create() {
     event.preventDefault();
 
     try {
-      await axios.put(`http://localhost:5000/posts/${id}`,
+      await axios.put(`https://top-blog-jr.herokuapp.com/posts/${id}`,
         {
           title,
           content,
